@@ -5,9 +5,9 @@ use Hybula\LookingGlass;
 const LG_TITLE = 'Looking Glass';
 
 // Define a logo, this can be HTML too, see the other example for an image;
-const LG_LOGO = '<h2>Company Looking Glass</h2>';
+const LG_LOGO = '<img src="https://www.jetorbit.com/wp-content/uploads/2019/05/hosting-murah-jetorbit-logo.svg" width="189" >';
 // Define the URL where the logo points to;
-const LG_LOGO_URL = 'https://github.com/hybula/lookingglass/';
+const LG_LOGO_URL = 'https://www.jetorbit.com';
 
 // Enable the latency check feature;
 const LG_CHECK_LATENCY = false;
@@ -30,9 +30,9 @@ const LG_CUSTOM_HTML = __DIR__.'/custom.html.php';
 const LG_CUSTOM_PHP = __DIR__.'/custom.post.php';
 
 // Define the location of this network, usually a city and a country;
-const LG_LOCATION = 'Amsterdam, Netherlands';
+const LG_LOCATION = 'Indonesia';
 // Define a query location for the link to openstreetmap (eg: Amsterdam, Netherlands will be https://www.openstreetmap.org/search?query=Amsterdam, Netherlands)
-const LG_MAPS_QUERY = 'Amsterdam, Netherlands';
+const LG_MAPS_QUERY = 'Indonesia';
 // Define the facility where the network is located, usually a data center;
 const LG_FACILITY = 'Nikhef';
 // Define a direct link to more information about the facility, this should be a link to PeeringDB;
